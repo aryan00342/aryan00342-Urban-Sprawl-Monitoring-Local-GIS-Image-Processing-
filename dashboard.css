@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  background: #eef;
+  text-align: center;
+}
+#map {
+  height: 400px;
+  margin: 20px auto;
+  width: 80%;
+}
+canvas {
+  width: 80%;
+  margin: 20px auto;
+}

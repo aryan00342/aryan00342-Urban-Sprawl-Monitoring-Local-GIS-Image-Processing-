@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Urban Sprawl Monitoring</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>🏙️ Urban Sprawl Monitoring</h1>
+    <p>Analyze and visualize city growth using satellite imagery</p>
+  </header>
+
+  <div class="container">
+    <div class="upload-card">
+      <h2>Upload Satellite Image</h2>
+      <form id="uploadForm">
+        <input type="file" id="imageInput" accept="image/*" required />
+        <button type="submit">📸 Process Image</button>
+      </form>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Processed Output</h2>
+      <img id="processedImage" src="" alt="Processed Output"/>
+      <div id="analysis"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Developed for Urban Sprawl Analytics | © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
